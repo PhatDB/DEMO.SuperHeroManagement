@@ -1,0 +1,6 @@
+@DEMO.SuperHeroManagement.QueryAPI_HostAddress = http://localhost:5114
+
+GET {{DEMO.SuperHeroManagement.QueryAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

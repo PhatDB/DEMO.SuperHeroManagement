@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DEMO.SuperHeroManagement.Command.Application\DEMO.SuperHeroManagement.CommandApplication.csproj" />
+    <ProjectReference Include="..\DEMO.SuperHeroManagement.QueryApplication\DEMO.SuperHeroManagement.QueryApplication.csproj" />
+    <ProjectReference Include="..\DEMO.SuperHeroManagement.QueryPersistence\DEMO.SuperHeroManagement.QueryPersistence.csproj" />
+  </ItemGroup>
+
+</Project>
